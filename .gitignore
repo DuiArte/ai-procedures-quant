@@ -1,0 +1,30 @@
+# --- review-only artifacts: not published ---
+_MANIFEST.md
+
+# --- private identity denylist: never commit (only the .example ships) ---
+identity_denylist.txt
+
+# --- filled-in (non-template) procedures: never commit ---
+*_filled.md
+*_live.md
+/private/
+real_procedures/
+
+# --- credentials / config ---
+.env
+*.key
+*.pem
+secrets.*
+config.local.*
+
+# --- python ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# --- scratch ---
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

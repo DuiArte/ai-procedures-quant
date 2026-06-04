@@ -1,0 +1,15 @@
+# Identity denylist — ONE term per line, '#' for comments.
+#
+# Copy this file to `identity_denylist.txt` (which is gitignored and NEVER
+# committed) and replace these placeholders with the REAL personal tokens the
+# sanitizer must catch: name, surname, email fragments, broker name, account
+# numbers, etc.
+#
+# This shipped .example file contains ONLY generic placeholders by design — the
+# real tokens must never appear in a public file. That is the whole point of
+# externalizing the denylist.
+your-first-name
+your-surname
+your-email-domain
+your-broker-name
+your-account-number
